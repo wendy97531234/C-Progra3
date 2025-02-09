@@ -1,0 +1,15 @@
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\bin\Debug\net8.0\intento1.deps.json
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\bin\Debug\net8.0\intento1.runtimeconfig.json
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\bin\Debug\net8.0\intento1.dll
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\bin\Debug\net8.0\intento1.pdb
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\obj\Debug\net8.0\intento1.csproj.AssemblyReference.cache
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\obj\Debug\net8.0\intento1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\obj\Debug\net8.0\intento1.AssemblyInfoInputs.cache
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\obj\Debug\net8.0\intento1.AssemblyInfo.cs
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\obj\Debug\net8.0\intento1.csproj.CoreCompileInputs.cache
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\obj\Debug\net8.0\intento1.sourcelink.json
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\obj\Debug\net8.0\intento1.dll
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\obj\Debug\net8.0\refint\intento1.dll
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\obj\Debug\net8.0\intento1.pdb
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\obj\Debug\net8.0\intento1.genruntimeconfig.cache
+C:\Users\Danya\OneDrive\Escritorio\GuiasEntityFr\C-Progra3\intento1\obj\Debug\net8.0\ref\intento1.dll
