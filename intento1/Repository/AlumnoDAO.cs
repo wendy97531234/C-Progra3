@@ -20,8 +20,7 @@ namespace intento1.Repository
         public List<Alumno> SelectAll()
         {
             // Creamos una variable var que es generica 
-            // El contexto tiene referecniada todos los modelos
-            // Dentro de EF tenemos el metodo modelo.ToList<Modelo>
+            
             var alumno = Contexto.Alumnos.ToList<Alumno>();
             return alumno;
         }
@@ -34,6 +33,86 @@ namespace intento1.Repository
             return alumno == null ? null : alumno;
         }
         #endregion
+        #region insertar
+        public bool insertarAlumno(Alumno alumno)
+        {
+            try
+            {
+                var alum = new Alumno
+                {
+                    Direccion = alumno.Direccion,
+                    Edad = alumno.Edad,
+                    Email = alumno.Email,
+                    Dni = alumno.Dni,
+                    Nombre = alumno.Nombre
+                };
+                Contexto.Alumnos.Add(alum);
+                // Este elemnto en si no nos guardara los datos para ello debemos utilizar el metodo save
+                Contexto.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+        #endregion
 
+        #region Actualizar
+        public bool actualizarAlumno(int id, Alumno actualizar)
+        {
+            try
+            {
+                var alumnoUpdate = GetById(id);
+                if (alumnoUpdate == null)
+                {
+                    Console.WriteLine("Alumno es null");
+                    return false;
+                }
+                alumnoUpdate.Direccion = actualizar.Direccion;
+                alumnoUpdate.Dni = actualizar.Dni;
+                alumnoUpdate.Nombre = actualizar.Nombre;
+                alumnoUpdate.Email = actualizar.Email;
+                Contexto.Alumnos.Update(alumnoUpdate);
+                Contexto.SaveChanges();
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.InnerException);
+                return false;
+            }
+        }
+        #endregion
+
+        #region  borrar
+
+        public bool borrarAlumno(int id)
+        {
+            var borrar = GetById(id);
+            try
+            {
+                if (borrar == null)
+                {
+                    return false;
+                }
+                else
+                {
+                    Contexto.Alumnos.Remove(borrar);
+                    Contexto.SaveChanges();
+                    return true;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.InnerException);
+                return false;
+            }
+        }
     }
 }
+
+#endregion
+
+
+
