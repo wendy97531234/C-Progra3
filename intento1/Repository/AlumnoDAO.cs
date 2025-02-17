@@ -109,10 +109,25 @@ namespace intento1.Repository
                 return false;
             }
         }
+        #endregion
+        #region LeftJoin
+        public List<AlumnoAsignatura> SelectAlumAsig()
+        {
+            var consulta = from a in Contexto.Alumnos
+                           join m in Contexto.Matriculas on a.Id equals m.AlumnoId
+                           join asig in Contexto.Asignaturas on m.AsignaturaId equals asig.Id
+                           select new AlumnoAsignatura
+                           {
+                               nombreAlumno = a.Nombre,
+                               nombreasignatura = asig.Nombre
+                           };
+            return consulta.ToList();
+        }
+        #endregion
     }
 }
 
-#endregion
+
 
 
 
