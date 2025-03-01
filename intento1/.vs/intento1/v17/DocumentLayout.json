@@ -3,6 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{84CAD6C0-9D16-4352-A6B0-877EC118BDF0}|..\\WebApi\\WebApi.csproj|c:\\users\\danya\\onedrive\\escritorio\\guiasentityfr\\c-progra3\\webapi\\controllers\\profesorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA82545-009A-4BB1-969B-778FBCC48F40}|intento1.csproj|c:\\users\\danya\\onedrive\\escritorio\\guiasentityfr\\c-progra3\\intento1\\repository\\profesordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA82545-009A-4BB1-969B-778FBCC48F40}|intento1.csproj|solutionrelative:repository\\profesordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BA82545-009A-4BB1-969B-778FBCC48F40}|intento1.csproj|c:\\users\\danya\\onedrive\\escritorio\\guiasentityfr\\c-progra3\\intento1\\models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BA82545-009A-4BB1-969B-778FBCC48F40}|intento1.csproj|solutionrelative:models\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{84CAD6C0-9D16-4352-A6B0-877EC118BDF0}|..\\WebApi\\WebApi.csproj|c:\\users\\danya\\onedrive\\escritorio\\guiasentityfr\\c-progra3\\webapi\\controllers\\valuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,6 +67,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Models\\Profesor.cs",
+              "RelativeDocumentMoniker": "Models\\Profesor.cs",
+              "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Models\\Profesor.cs",
+              "RelativeToolTip": "Models\\Profesor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:49:41.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfesorDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Repository\\ProfesorDAO.cs",
+              "RelativeDocumentMoniker": "Repository\\ProfesorDAO.cs",
+              "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Repository\\ProfesorDAO.cs",
+              "RelativeToolTip": "Repository\\ProfesorDAO.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:40:40.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfesorController.cs",
+              "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Controllers\\ProfesorController.cs",
+              "RelativeDocumentMoniker": "..\\WebApi\\Controllers\\ProfesorController.cs",
+              "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Controllers\\ProfesorController.cs",
+              "RelativeToolTip": "..\\WebApi\\Controllers\\ProfesorController.cs",
+              "ViewState": "AgIAAA4AAAAAAH+r8TqNvw0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T04:36:05.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "..\\WebApi\\Program.cs",
@@ -63,38 +113,36 @@
               "RelativeToolTip": "..\\WebApi\\Program.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAEwBcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T05:52:38.452Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T05:52:38.452Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ValueController.cs",
               "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Controllers\\ValueController.cs",
               "RelativeDocumentMoniker": "..\\WebApi\\Controllers\\ValueController.cs",
-              "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Controllers\\ValueController.cs*",
-              "RelativeToolTip": "..\\WebApi\\Controllers\\ValueController.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Controllers\\ValueController.cs",
+              "RelativeToolTip": "..\\WebApi\\Controllers\\ValueController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T05:46:49.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WebApi",
+              "DocumentIndex": 6,
+              "Title": "WebApi.csproj",
               "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\WebApi.csproj",
               "RelativeDocumentMoniker": "..\\WebApi\\WebApi.csproj",
               "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\WebApi.csproj",
               "RelativeToolTip": "..\\WebApi\\WebApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAkwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-25T05:36:35.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T05:36:35.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "AlumnoAsignatura.cs",
               "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Models\\AlumnoAsignatura.cs",
               "RelativeDocumentMoniker": "Models\\AlumnoAsignatura.cs",
@@ -106,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Alumno.cs",
               "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Models\\Alumno.cs",
               "RelativeDocumentMoniker": "Models\\Alumno.cs",
@@ -114,12 +162,11 @@
               "RelativeToolTip": "Models\\Alumno.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA7wBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T06:10:21.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T06:10:21.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "AlumnoDAO.cs",
               "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Repository\\AlumnoDAO.cs",
               "RelativeDocumentMoniker": "Repository\\AlumnoDAO.cs",
@@ -127,12 +174,11 @@
               "RelativeToolTip": "Repository\\AlumnoDAO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T06:05:57.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T06:05:57.244Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Asignatura.cs",
               "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Models\\Asignatura.cs",
               "RelativeDocumentMoniker": "Models\\Asignatura.cs",
@@ -140,12 +186,11 @@
               "RelativeToolTip": "Models\\Asignatura.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T06:10:30.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T06:10:30.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "intento1.csproj",
               "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\intento1.csproj",
               "RelativeDocumentMoniker": "intento1.csproj",
@@ -153,12 +198,11 @@
               "RelativeToolTip": "intento1.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-10T04:47:22.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-10T04:47:22.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "RegistroAlumnoContext.cs",
               "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Context\\RegistroAlumnoContext.cs",
               "RelativeDocumentMoniker": "Context\\RegistroAlumnoContext.cs",
@@ -166,12 +210,11 @@
               "RelativeToolTip": "Context\\RegistroAlumnoContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T06:00:24.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T06:00:24.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Class1.cs",
               "RelativeDocumentMoniker": "Class1.cs",
@@ -179,8 +222,7 @@
               "RelativeToolTip": "Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAADqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T16:50:30.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T16:50:30.721Z"
             }
           ]
         }

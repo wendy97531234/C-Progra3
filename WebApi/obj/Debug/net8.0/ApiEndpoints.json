@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "WebApi.Controllers.ProfesorController",
+    "Method": "loginProfesor",
+    "RelativePath": "api/Profesor/autentificacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profesor",
+        "Type": "intento1.Models.Profesor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "WebApi.Controllers.ValueController",
     "Method": "Get",
     "RelativePath": "api/Value/Prueba",
