@@ -20,7 +20,7 @@ namespace intento1.Repository
         public List<Alumno> SelectAll()
         {
             // Creamos una variable var que es generica 
-            
+
             var alumno = Contexto.Alumnos.ToList<Alumno>();
             return alumno;
         }
@@ -124,6 +124,27 @@ namespace intento1.Repository
             return consulta.ToList();
         }
         #endregion
+
+
+        public List<AlumnoProfesor> AlumnoProfesor(string nombreProfesor)
+        {
+            var listadoALumno = from a in Contexto.Alumnos
+                                join m in Contexto.Matriculas on a.Id equals m.AlumnoId
+                                join asig in Contexto.Asignaturas on m.AsignaturaId equals asig.Id
+                                where asig.Profesor == nombreProfesor
+                                select new AlumnoProfesor
+                                {
+                                    Id = a.Id,
+                                    Dni = a.Dni,
+                                    Nombre = a.Nombre,
+                                    Direccion = a.Direccion,
+                                    Edad = a.Edad,
+                                    Email = a.Email,
+                                    Asignatura = asig.Nombre
+                                };
+
+            return listadoALumno.ToList();
+        }
     }
 }
 
