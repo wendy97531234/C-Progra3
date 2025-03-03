@@ -145,10 +145,37 @@ namespace intento1.Repository
 
             return listadoALumno.ToList();
         }
+        #region update alumno 
+
+        public bool update(int id, Alumno actualizar)
+        {
+            try
+            {
+                var alumnoUpdate = GetById(id);
+
+                if (alumnoUpdate == null)
+                {
+                    Console.WriteLine("Alumno es null");
+                    return false;
+                }
+
+                alumnoUpdate.Direccion = actualizar.Direccion;
+                alumnoUpdate.Dni = actualizar.Dni;
+                alumnoUpdate.Nombre = actualizar.Nombre;
+                alumnoUpdate.Email = actualizar.Email;
+
+                Contexto.Alumnos.Update(alumnoUpdate);
+                Contexto.SaveChanges();
+                return true;
+
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.InnerException);
+                return false;
+            }
+        }
+        #endregion
     }
 }
-
-
-
-
-

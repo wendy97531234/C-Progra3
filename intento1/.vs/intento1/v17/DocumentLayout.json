@@ -81,8 +81,7 @@
               "RelativeToolTip": "Models\\AlumnoProfesor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T05:06:45.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T05:06:45.2Z"
             },
             {
               "$type": "Document",
@@ -92,7 +91,7 @@
               "RelativeDocumentMoniker": "Repository\\AlumnoDAO.cs",
               "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Repository\\AlumnoDAO.cs",
               "RelativeToolTip": "Repository\\AlumnoDAO.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAqwJQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAAALEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-09T06:05:57.244Z",
               "EditorCaption": ""
@@ -103,9 +102,9 @@
               "Title": "AlumnoController.cs",
               "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Controllers\\AlumnoController.cs",
               "RelativeDocumentMoniker": "..\\WebApi\\Controllers\\AlumnoController.cs",
-              "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Controllers\\AlumnoController.cs*",
-              "RelativeToolTip": "..\\WebApi\\Controllers\\AlumnoController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwIAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Controllers\\AlumnoController.cs",
+              "RelativeToolTip": "..\\WebApi\\Controllers\\AlumnoController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T04:55:35.625Z",
               "EditorCaption": ""
@@ -120,8 +119,7 @@
               "RelativeToolTip": "..\\WebApi\\Controllers\\ProfesorController.cs",
               "ViewState": "AgIAAAgAAADA32q8TgcqwA0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T04:36:05.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T04:36:05.845Z"
             },
             {
               "$type": "Document",

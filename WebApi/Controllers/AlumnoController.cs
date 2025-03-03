@@ -16,5 +16,17 @@ namespace WebApi.Controllers
         {
             return _dao.AlumnoProfesor(usuario);
         }
+        [HttpGet("alumno")]
+        public Alumno selectById(int id)
+        {
+            var alumno = _dao.GetById(id);
+            return alumno;
+        }
+
+        [HttpPut("alumno")]
+        public bool actualizarAlumno([FromBody] Alumno alumno)
+        {
+            return _dao.update(alumno.Id, alumno);
+        }
     }
 }
