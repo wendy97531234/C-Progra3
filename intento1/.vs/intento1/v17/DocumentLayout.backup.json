@@ -65,11 +65,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlumnoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Repository\\AlumnoDAO.cs",
+              "RelativeDocumentMoniker": "Repository\\AlumnoDAO.cs",
+              "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Repository\\AlumnoDAO.cs",
+              "RelativeToolTip": "Repository\\AlumnoDAO.cs",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAqwAIBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T06:05:57.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlumnoController.cs",
+              "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Controllers\\AlumnoController.cs",
+              "RelativeDocumentMoniker": "..\\WebApi\\Controllers\\AlumnoController.cs",
+              "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Controllers\\AlumnoController.cs",
+              "RelativeToolTip": "..\\WebApi\\Controllers\\AlumnoController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T04:55:35.625Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,32 +108,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T05:06:45.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AlumnoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Repository\\AlumnoDAO.cs",
-              "RelativeDocumentMoniker": "Repository\\AlumnoDAO.cs",
-              "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\intento1\\Repository\\AlumnoDAO.cs*",
-              "RelativeToolTip": "Repository\\AlumnoDAO.cs*",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAAALEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T06:05:57.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AlumnoController.cs",
-              "DocumentMoniker": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Controllers\\AlumnoController.cs",
-              "RelativeDocumentMoniker": "..\\WebApi\\Controllers\\AlumnoController.cs",
-              "ToolTip": "C:\\Users\\Danya\\OneDrive\\Escritorio\\GuiasEntityFr\\C-Progra3\\WebApi\\Controllers\\AlumnoController.cs*",
-              "RelativeToolTip": "..\\WebApi\\Controllers\\AlumnoController.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T04:55:35.625Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -258,6 +258,42 @@ namespace intento1.Repository
             }
         }
         #endregion
+        public bool eliminarAlumno(int id)
+        {
+            try
+            {
+                // Debemos verificar el id del alumno
+                var alumno = Contexto.Alumnos.Where(x => x.Id == id).FirstOrDefault();
+                if (alumno != null)
+                {
+                    // matriculaAlumno == idALumno
+                    var matriculaA = Contexto.Matriculas.Where(x => x.AlumnoId == alumno.Id).ToList();
+                    Console.WriteLine("Alumno encontrado");
+                    // Traemos la calificaciones asociadas a esa matricula 
+                    foreach (Matricula m in matriculaA)
+                    {
+                        var calificacion = Contexto.Calificacions.Where(x => x.MatriculaId == m.Id).ToList();
+                        Console.WriteLine("Matricula encontrada");
+                        Contexto.Calificacions.RemoveRange(calificacion);
+                    }
+                    Contexto.Matriculas.RemoveRange(matriculaA);
+                    Contexto.Alumnos.Remove(alumno);
+                    Contexto.SaveChanges();
+                    return true;
+                }
+                else
+                {
+                    Console.WriteLine("Alumno no encontrado");
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+
+            }
+        }
     }
 
 }
